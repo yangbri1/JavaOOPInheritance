@@ -14,7 +14,7 @@ public class Main {
         p.greeting();
 
         // initialize group's fandom name to 'fans'
-        String fans = "Once Thrice";
+        String fans = "Once Thrice. ";
 
         // create an instance of Child class obj
         Child c = new Child(genThree, fans);

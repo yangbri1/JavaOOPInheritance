@@ -16,6 +16,12 @@ public class Child extends Parent {
         // https://stackoverflow.com/questions/23889811/java-constructor-in-class-cannot-be-applied-to-given-types
         super(name);
 
+        // https://stackoverflow.com/questions/32176463/in-java-can-super-be-used-to-call-any-parent-method-or-just-the-parent-constru
+        
+        /* 
+        IMPORTANT: super.methodName() -- to call parent's method -- access modifiers should be set to "public" ("private" can't access)
+        */
+
         // initialize instance variable 'descendent' (point w/ 'this') to input arg 'descendent'
         this.descendent = descendent;
         
